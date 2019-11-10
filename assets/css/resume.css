@@ -1,0 +1,33 @@
+.header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+h1{ 
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: auto;
+    padding: 22px;
+}
+.about{
+    clear: both;
+    position: relative;
+    bottom: 0;
+    right:0;
+}
+.portfolio{
+    float:  right;
+}
+.contact{
+    float: right;
+}
+h2{
+    clear: both;
+    color: #4aaaa5;
+}
+body{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
