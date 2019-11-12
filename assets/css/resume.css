@@ -1,17 +1,21 @@
 header{
     text-align: center;
     background-color: #ffffff;
-    border-bottom: 2px solid #cccccc
+    border-bottom: 2px solid #cccccc;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #container, #nav{
     display: inline-block;
     margin-top: 30px;
+
 }
 .myName{
     background-color: #4aaaa5;
     color: #ffffff;
     width: auto;
     padding: 20px;
+    margin: 0 auto;
 }
 #nav{
     text-align: right;
@@ -32,4 +36,15 @@ h2{
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/blue.png");
+    text-decoration: none;
     
+}
+a{
+    color: #cccccc;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
