@@ -4,8 +4,9 @@ header{
     border-bottom: 2px solid #cccccc;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
 }
-#container, #nav{
+.container, .nav{
     display: inline-block;
     margin-top: 30px;
 
@@ -15,9 +16,11 @@ header{
     color: #ffffff;
     width: auto;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 auto;  
+    border-radius: 4px;  
+
 }
-#nav{
+.nav{
     text-align: right;
     width: 54%;
 }
@@ -26,12 +29,16 @@ h2{
     color: #4aaaa5;
     padding: 20px;
 }
-#content{
+.content{
     position: relative;
     top: 20px;
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
+    border-radius: 4px;
+    clear: auto;
+    height: 100%;
+    padding: 50px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +46,7 @@ body{
     text-decoration: none;
     
 }
+
 a{
     color: #cccccc;
     text-decoration: none;
@@ -47,4 +55,50 @@ a{
 a:hover{
     background-color: #4aaaa5;
     color: #ffffff;
+    border-radius: 4px;
 }
+.active{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-radius: 4px;
+}
+#self{
+    float: left;
+    width: 200px;  
+    height: 200px;
+    margin-right: 20px;
+
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .info {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
