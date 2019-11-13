@@ -27,7 +27,9 @@ header{
 
 h2{
     color: #4aaaa5;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-bottom: 20px;
+    font-size: xx-large;
 }
 .content{
     position: relative;
@@ -36,7 +38,6 @@ h2{
     background-color: #ffffff;
     margin: 0 auto;
     border-radius: 4px;
-    clear: auto;
     height: 100%;
     padding: 50px;
 }
@@ -70,6 +71,14 @@ a:hover{
 
 
 }
+.port{
+    /* float: left; */
+    margin-left: 100px;
+    padding: 18px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -102,3 +111,4 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
