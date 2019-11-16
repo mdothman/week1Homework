@@ -1,10 +1,16 @@
+/*This is the navbar/header*/
+
 header {
     text-align: center;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 4px;
+}
+
+h1,
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container,
@@ -23,16 +29,50 @@ header {
     border-radius: 4px;
 }
 
+.white {
+    color: #ffffff;
+    padding: 0;
+}
+
 .nav {
     text-align: right;
     width: 54%;
 }
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 0;
+}
+
+
+/* border-width: 8px; */
+
+
+/*This is the content name*/
 
 h2 {
     color: #4aaaa5;
     /* padding: 20px; */
     margin-bottom: 20px;
     font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*This is the main content*/
+
+p {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
 }
 
 .content {
@@ -50,17 +90,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/blue.png");
     text-decoration: none;
-}
-
-a {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-radius: 4px;
+    margin: 0;
 }
 
 .active {
@@ -78,10 +108,31 @@ a:hover {
 }
 
 .port {
+    float: left;
     width: 200px;
     height: auto;
-    padding: 20px;
-    margin-left: 100px;
+    /* margin-left: 20px; */
+}
+
+span {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: auto auto; */
+}
+
+#nudge {
+    margin-top: 35px;
 }
 
 input[type=text],
@@ -130,6 +181,9 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+
+/*This is the footer*/
 
 .footer {
     position: fixed;
